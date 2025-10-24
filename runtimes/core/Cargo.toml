@@ -16,7 +16,7 @@ prost = "0.12.3"
 prost-types = "0.12.3"
 serde = "1.0.193"
 serde_json = { version = "1.0.108", features = ["raw_value"] }
-tokio = { version = "1.35.1", features = ["sync"] }
+tokio = { version = "1.43.1", features = ["sync"] }
 tokio-stream = "0.1.17"
 tokio-nsq = "0.14.0"
 xid = "1.0.3"
@@ -74,7 +74,7 @@ duct = "0.13.7"
 base32 = "0.4.0"
 
 # We need to vendor openssl to allow cross-compilation on our build systems
-openssl = { version = "0.10.57", features = ["vendored"] }
+openssl = { version = "0.10.72", features = ["vendored"] }
 bb8 = "0.8.3"
 bb8-postgres = "0.8.1"
 uuid = "1.7.0"
@@ -92,7 +92,7 @@ tower-http = { version = "0.5.2", features = ["fs"] }
 google-cloud-storage = "0.22.1"
 serde_path_to_error = "0.1.16"
 tracing = "0.1.40"
-tracing-subscriber = { version = "0.3.18", features = [
+tracing-subscriber = { version = "0.3.20", features = [
     "alloc",
     "ansi",
     "env-filter",
